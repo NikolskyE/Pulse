@@ -67,7 +67,18 @@
             font-size: 18px;
         }
     }
+    .carousel {
+        
+        &__inner {
+            width: 85%;
+            img {
+                width: 95%;
+                margin: 0 auto;
+            }
+        }
+    }    
 }
+
 
 @media (max-width: 767px) {
     .container {
@@ -182,6 +193,16 @@
             height: 46px;
             font-size: 14px;
         }
+    }
+    .carousel {
+        padding: 61px 0;
+        &__inner {
+            width: 98%;
+            img {
+                width: 95%;
+                margin: 0 auto;
+            }
+        }
     }    
 }
 
@@ -286,7 +307,26 @@
             width: 90%;
         }
     }    
-
+    .carousel {
+        padding: 50px 0;
+        &__inner {
+            width: 98%;
+            img {
+                width: 95%;
+                margin: 0 auto;
+            }
+        }
+        .slick-dots {
+            button {
+                height: 6px;
+                width: 25px;
+                border-radius: 3px;
+                margin: 4px;
+            }
+        }
+    }
+    
+    
 } 
 
 
